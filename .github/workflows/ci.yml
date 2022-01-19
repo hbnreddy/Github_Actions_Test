@@ -27,6 +27,6 @@ jobs:
     
     - uses: actions/upload-artifact@v2
       with:
-        name: mario.jar
+        name: mario.war
         path: /home/ubuntu/actions-runner/_work/Github_Actions_Test/Github_Actions_Test/target/my-app-1.0-SNAPSHOT.jar
         if-no-files-found: error # 'warn' or 'ignore' are also available, defaults to `warn`
